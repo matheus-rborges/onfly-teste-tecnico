@@ -10,6 +10,11 @@ O presente projeto foi escrito utilizando-se a linguagem TypeScript e valendo-se
 
 Para esse projeto, foi escolhido o SQLite como banco uma vez que se trata apenas de uma prova de conceito e, para tanto, ele é uma escolha que agrega muita simplicidade ao projeto.
 
+
+## Environment
+
+Para facilitar a execução do teste, o presente repositório conta com o arquivo `.env`. Vale notar que não se trata de uma boa prática, tais informações devem ser compartilhadas por meio de vaults e canais seguros.
+
 ## Execução via Docker
 
 Basta executar
