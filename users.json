@@ -1,0 +1,44 @@
+{
+    "users": [
+        {
+            "name": "John",
+            "lastName": "Doe",
+            "role": "Admin",
+            "documentNumber": "123456789",
+            "password": "password123",
+            "email": "john.doe@example.com"
+        },
+        {
+            "name": "Jane",
+            "lastName": "Smith",
+            "role": "User",
+            "documentNumber": "987654321",
+            "password": "jane_smith_2021",
+            "email": "jane.smith@example.com"
+        },
+        {
+            "name": "Carlos",
+            "lastName": "Silva",
+            "role": "User",
+            "documentNumber": "112233445",
+            "password": "carlos_silva2022",
+            "email": "carlos.silva@example.com"
+        },
+        {
+            "name": "Alice",
+            "lastName": "Johnson",
+            "role": "User",
+            "documentNumber": "223344556",
+            "password": "alice_johnson_01",
+            "email": "alice.johnson@example.com"
+        },
+        {
+            "name": "Michael",
+            "lastName": "Brown",
+            "role": "Admin",
+            "documentNumber": "554433221",
+            "password": "michael_brown_2022",
+            "email": "michael.brown@example.com"
+        }
+    ]
+}

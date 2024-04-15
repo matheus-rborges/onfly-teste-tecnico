@@ -1,0 +1,38 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-1.0.x"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./database.db"
+}
+
+model User {
+  id             Int      @id @default(autoincrement())
+  name           String
+  lastName       String
+  role           String
+  documentNumber String
+  password       String
+  email          String
+  Expense        Expense[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now())
+
+  @@unique([documentNumber, email])
+}
+
+model Expense {
+  id          Int      @id @default(autoincrement())
+  description String
+  userId      Int
+  user        User     @relation(fields: [userId], references: [id])
+  value       Float
+  date        DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now())
+}

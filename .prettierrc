@@ -1,0 +1,12 @@
+{
+    "bracketSpacing": true,
+    "importOrder": ["^[./]"],
+    "importOrderParserPlugins": ["typescript", "decorators-legacy"],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "organizeImportsSkipDestructiveCodeActions": true,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "es5"
+}
