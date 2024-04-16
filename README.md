@@ -74,7 +74,7 @@ $ yarn test:cov
 
 ### Documentação swagger
 
-A API tem seus endpoints documentados com swagger. Para acessar a documentação basta acessar:
+A API tem seus endpoints documentados com swagger. Para acessar a documentação basta acessar (para melhor visualização, acesse pelo navegador):
 
 ```
 GET: /doc
