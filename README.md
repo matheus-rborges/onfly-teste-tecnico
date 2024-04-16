@@ -10,10 +10,13 @@ O presente projeto foi escrito utilizando-se a linguagem TypeScript e valendo-se
 
 Para esse projeto, foi escolhido o SQLite como banco uma vez que se trata apenas de uma prova de conceito e, para tanto, ele é uma escolha que agrega muita simplicidade ao projeto.
 
-
 ## Environment
 
-Para facilitar a execução do teste, o presente repositório conta com o arquivo `.env`. Vale notar que não se trata de uma boa prática, tais informações devem ser compartilhadas por meio de vaults e canais seguros.
+Para facilitar a execução do teste, o presente repositório conta com o arquivo `.env`. Vale ressaltar que não se trata de uma boa prática, tais informações devem ser compartilhadas por meio de vaults e canais seguros.
+
+## Usuários
+
+O JSON com os dados dos usuários cadastrados se encontram no repositório no arquivo `users.json`, juntamente com suas informações de login. Eles foram gerados aleatoriamente para fins de teste, contudo, o último usuário teve seu e-mail alterado para `sara.pinheiro@onfly.com.br`. Assim, para testar o envio de e-mail basta cadastrar uma nova despesa para ele.
 
 ## Execução via Docker
 
@@ -71,8 +74,8 @@ $ yarn test:cov
 
 ### Documentação swagger
 
+A API tem seus endpoints documentados com swagger. Para acessar a documentação basta acessar:
+
 ```
 GET: /doc
 ```
-
-Conta com a página de swagger para teste e documentação da API.
